@@ -11,6 +11,7 @@ nav {
 
 /*Three pictures as header.*/
 .imgRow {
+	animation-duration: 3s;
 	position: fixed;
 	top: 75px;
 	z-index: -1;
@@ -30,6 +31,8 @@ nav {
 .about {
 	background-color: #ffffff;
 	margin-top: 350px;
+	height: 100%;
+
 }
 
 .wrap {
@@ -65,12 +68,18 @@ nav {
 	font-weight: 100;
 }
 
-.aboutTextWrap .quote {
+.aboutTextWrap .quoteTop, .quoteBottom {
 	margin: 50px 100px;
 	font-size: 20px;
 	text-align: center;
 	line-height: 175%;
+	opacity: 0;
 
+}
+
+.aboutTextWrap .js-quote-animate{
+	opacity: 1;
+	animation-duration: 1.5s;
 }
 
 /*More Details Section*/
@@ -83,7 +92,7 @@ nav {
 .moreDetails .handImage {
 	float: left;
 	margin-top: 50px;
-	padding-left: 100px;
+	padding-left: 175px;
 }
 
 .moreDetails .handImage {
@@ -99,8 +108,8 @@ nav {
 .moreDetails .moreDetailText {
 	display: inline-block;
 	text-align: center;
-	margin-top: 50px;
-	margin-left: 50px;
+	margin-top: 75px;
+	margin-left: 75px;
 	margin-right: 0px;
 	color: #ffffff;
 	width: 600px;
@@ -119,7 +128,7 @@ nav {
 .moreDetails .detailBtn {
 	padding: 15px;
 	margin-top: 75px;
-	margin-right: 100px;
+	margin-right: 50px;
 	float: right;
 	background: none;
 	border: double;
@@ -141,6 +150,11 @@ nav {
 	animation-duration: 2s;
 }
 
+.moreDetails .btn {
+	position: relative;
+	bottom: 145px;
+	right: 25px;
+}
 
 .detailBtn:hover {
 	background-color: #000000;
