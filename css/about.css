@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.imgRow {
+	float: left;
+	height: 300px;
+	width: 100%
+}
+
+.imgRow img {
+	float: left;
+	height: 300px;
+	width: 426.5px;
+}
