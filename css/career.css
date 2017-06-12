@@ -1,0 +1,156 @@
+nav {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 1);
+
+}
+
+.headImage {
+	position: fixed;
+	width: 100%;
+	top: 75px;
+	height: 350px;
+	z-index: -1;
+}
+
+.headImage img {
+	width: 100%;
+	height: 450px;
+}
+
+/*About Staffing*/
+.aboutStaffing {
+	margin-top: 350px;
+	background-color: #ffffff;
+	height: 100%;
+	line-height: 175%;
+}
+
+.aboutStaffing .wrap {
+	margin-right: 90px;
+	margin-left: 90px;
+	padding-top: 50px;
+
+}
+
+.wrap h1 {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+.aboutText p {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.solutionsWrap {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	width: 1400px;
+	
+}
+
+
+.solutionsWrap .solutions {
+	border: solid;
+	border-color: #2EA2CC;
+	text-align: center;
+	width: 300px;
+	float: left;
+	margin-right: 25px;
+	padding: 15px 25px;
+	opacity: 0;
+}
+
+.solutionsWrap .js-staffSolLeft-animate {
+	opacity: 1;
+	animation-duration: 1.5s;
+
+}
+
+.solutionsWrap .js-staffSolMiddle-animate {
+	opacity: 1;
+	animation-duration: 2.5s;
+
+}
+
+.solutionsWrap .js-staffSolRight-animate {
+	opacity: 1;
+	animation-duration: 3.5s;
+} 
+
+.solutions h2 {
+	margin-bottom: 15px;
+}
+
+.aboutText h3 {
+	margin-top: 275px;
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+
+.aboutText ul {
+	font-size: 20px;
+	line-height: 175%;
+	margin-left: 25px;
+	margin-bottom: 50px;
+}
+
+.aboutTextWrap .concld {
+	font-size: 20px;
+	font-style: italic;
+	padding-bottom: 50px;
+}
+
+/*Get Started Section*/
+.moreDetails{
+	background-color: #2EA2CC;
+	height: 300px;
+}
+.moreDetails .moreDetailText {
+	float: left;
+	width: 820px;
+	margin-left: 100px;
+	margin-top: 50px;
+	line-height: 200%;
+	color: #ffffff;
+}
+
+.moreDetails h2 {
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+
+.detailBtn {
+	padding: 15px;
+	margin-top: 100px;
+	margin-right: 150px;
+	float: right;
+	background: none;
+	border: double;
+	border-color: #000000;
+	border-radius: 3px;
+	border-width: 6px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #ffffff;
+	cursor: pointer; 
+	cursor: hand;
+	-webkit-transition-duration: 1.5s; 
+	transition-duration: 1.5s;
+	opacity: 0;
+}
+
+
+.js-btn-animate {
+	opacity: 1;
+	animation-duration: 2s;
+	
+}
+
+.detailBtn:hover {
+	background-color: #000000;
+	font-size: 20px;
+	color: #2EA2CC;	
+	font-weight: 100;
+}

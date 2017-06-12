@@ -30,10 +30,10 @@ nav a:hover {
 nav a .logo {
 	float: left;
 	margin-top: 6px;
-	margin-left: 45px;
+	margin-left: 25px;
 	height: 60px;
 	width: 145px;
-	padding-left: 65px;
+	padding-left: px;
 	padding-right: 25px;
 	animation-duration: 5s;
 }
@@ -49,6 +49,46 @@ nav li {
 	list-style: none;
 	margin-right: 25px;
 }
+
+/*Nav DropDown Content*/
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding-top: 35px;  
+    min-width: 100px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #2EA2CC;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Nav Hamburger*/
+  .hamburger {
+    float: right;
+    margin-top: 3.0rem;
+    cursor: pointer;
+    display: none;
+  }
+
+  .hamburger i {
+    font-size: 3.6rem;
+    z-index: 999;
+  }
 
 
 /*header section with fixed background*/
@@ -84,9 +124,9 @@ header .js-head-animate {
 }
 
 header .overlay h3 {
-	position: absolute;
-	width: 100%;
-	top: 250px;
+	margin: 0 auto;
+	width: 65%;
+	margin-top: 240px;
 	font-size: 30px;
 	color: #2EA2CC;
 
@@ -151,7 +191,7 @@ header .js-rightButton-animate {
  	padding-left: 75px;
  }
 
-.info {
+.wrapper .info {
 	float: left;
  	width: 290px;
   	margin-right: 100px;
@@ -160,7 +200,7 @@ header .js-rightButton-animate {
 
  }
 
- .info h3 {
+ .info h2 {
  	font-weight: bolder;
  	margin-bottom: 25px;
  }
@@ -303,6 +343,135 @@ footer .ref {
 	margin-right: 50px;
 	margin-top: 25px;
 }
+
+/*Media Queries*/
+
+/*Nav Bar Queries*/
+@media only screen and (max-width: 1052px) {
+   nav a .logo {
+   		margin-top: 10px;
+       	margin-left: 10px;
+		
+}
+
+@media only screen and (max-width: 1052px) {
+    nav li {
+       margin-right: 15px;
+    }
+}
+@media only screen and (max-width: 952px) {
+    nav li {
+       margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 901px) {
+    .hamburger {
+    	display: inline-block;
+  		margin-top: 10px;
+  		margin-right: 25px;
+    }
+
+    .hamburger i { 
+  		color: #2EA2CC;
+  		font-size: 40px;
+  }
+
+    .main-nav {
+    	display: none;
+    	margin-top: 77px;
+    	background-color: rgba(0, 0, 0, 0.8); 
+    	width: 135px;
+    	height: 250px;
+    	float: right;
+  }
+
+  .main-nav li { 
+  		display: inline-block;
+  		margin-top: 5px;
+  		margin-right: 25px;
+  		margin-left: 8px;
+  		text-align: left;
+  		height: 30px;
+    	line-height: 30px;
+    	float: none; 
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    	display: block;
+   	 	/*padding-bottom: 2.0rem;*/
+    	border-bottom: 0;
+  }
+
+	.dropdown-content {
+	    top: 100px;
+	    right: 175px;
+	    padding-right: 20px; 
+	}
+
+	.dropdown-content-contact {
+	    top: 232px;
+	    right: 180px;
+	    padding-right: 15px;
+	   /* width: 175px;*/
+	}
+
+	.dropdown-content a {
+	    padding: 0 0;
+	    margin-left: 5px;
+
+	}
+
+}
+/*Header Section Queries*/
+@media only screen and (max-width: 760px) {
+    header .head {
+    	font-size: 55px;
+    }
+
+    header .overlay h3 {
+    	margin-top: 215px;
+
+    }
+
+    header .leftButton,.rightButton {
+    	font-size: 15px;
+    }
+
+    header .leftButton:hover,.rightButton:hover {
+    	font-size: 18px;
+    }	
+}
+
+@media only screen and (max-width: 569px) {
+	header .overlay h3 {
+    	font-size: 25px;
+    	width: 75%;
+    }	
+}
+
+@media only screen and (max-width: 475px) {
+	header .head {
+    	font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+	header .overlay h3 {
+   		font-size: 22px;
+    	width: 85%;
+    }	
+}
+
+/*Brief Desciption Section*/
+@media only screen and (max-width: 1270px) {
+	.info {
+   		margin-right: 0px;
+    }	
+}
+
+
+/* End of Media Queries*/
 
 
 

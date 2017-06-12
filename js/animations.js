@@ -1,37 +1,37 @@
 
 
-  // /* ----- MOBILE NAVIGATION -----*/
-  // $('.js-hamburger, .js-main-nav a').click(function() {
-  //   var icon = $('.js-hamburger i');
-  //   var nav = $('.js-main-nav');
+  /* ----- MOBILE NAVIGATION -----*/
+  $('.js-hamburger, .js-main-nav a').click(function() {
+    var icon = $('.js-hamburger i');
+    var nav = $('.js-main-nav');
 
-  //   if ($(window).width() < 767) {
-  //     nav.slideToggle(200);
+    if ($(window).width() < 901) {
+      nav.slideToggle(500);
 
-  //     if (icon.hasClass('ion-navicon-round')) {
-  //       icon.addClass('ion-close-round');
-  //       icon.removeClass('ion-navicon-round');
-  //     } else {
-  //       icon.addClass('ion-navicon-round');
-  //       icon.removeClass('ion-close-round');
-  //     }
-  //   }
-  // });
+      if (icon.hasClass('ion-navicon-round')) {
+        icon.addClass('ion-close-round');
+        icon.removeClass('ion-navicon-round');
+      } else {
+        icon.addClass('ion-navicon-round');
+        icon.removeClass('ion-close-round');
+      }
+    }
+  });
 
-  // $(window).resize(function() {
-  //   var icon = $('.js-hamburger i');
-  //   var nav = $('.js-main-nav');
+  $(window).resize(function() {
+    var icon = $('.js-hamburger i');
+    var nav = $('.js-main-nav');
 
-  //   if ($(window).width() > 767) {
-  //     nav.css("display", "block");
-  //     icon.addClass('ion-close-round');
-  //     icon.removeClass('ion-navicon-round');
-  //   } else {
-  //     nav.css("display", "none");
-  //     icon.addClass('ion-navicon-round');
-  //     icon.removeClass('ion-close-round');
-  //   }
-  // });
+    if ($(window).width() > 901) {
+      nav.css("display", "block");
+      icon.addClass('ion-close-round');
+      icon.removeClass('ion-navicon-round');
+    } else {
+      nav.css("display", "none");
+      icon.addClass('ion-navicon-round');
+      icon.removeClass('ion-close-round');
+    }
+  });
 
 
   /* ----- ANIMATIONS ON SCROLL -----*/

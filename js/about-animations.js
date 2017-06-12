@@ -1,5 +1,4 @@
 
-
 // ABOUT Animation Section
 var $quoteTop = $('.quoteTop');
 
