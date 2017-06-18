@@ -1016,7 +1016,28 @@ footer .ref {
 	}
 
 	footer .ref {
-		right: 32%;
+		right: 45%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	footer .ref {
+		right: 40%;
+	}
+}
+
+@media only screen and (max-width: 365px) {
+
+	footer .ref {
+		right: 35%;
+	}
+}
+
+@media only screen and (max-width: 330px) {
+
+	footer .ref {
+		right: 27%;
 	}
 }
 
