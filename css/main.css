@@ -336,14 +336,15 @@ footer a  img {
 footer .copy {
 	margin: auto;
 	width: 100%;
-	padding-top: 35px;	
+	padding-top: 35px;
+	padding-left: 500px;	
 
 }
 
 footer .ref {
 	position: absolute;
 	right: 4%;
-	bottom: 2%;
+	top: 1230px;
 }
 
 /*Media Queries*/
@@ -428,7 +429,7 @@ footer .ref {
 	}
 
 }
-/*Header Section Queries*/
+/*---------Header Section Queries---------*/
 @media only screen and (max-width: 760px) {
     header .head {
     	font-size: 55px;
@@ -468,7 +469,8 @@ footer .ref {
     }	
 }
 
-/*Brief Desciption Section*/
+/*--------Brief Desciption Section---------*/
+
 @media only screen and (max-width: 1270px) {
 	.descript .wrapper .info {
 		margin-right: 85px;
@@ -642,6 +644,7 @@ footer .ref {
 
 	.descript .wrapper .info {
 		width: 450px;
+		margin-top: 25px;
 	}
 
 }
@@ -669,6 +672,10 @@ footer .ref {
 }
 
 @media only screen and (max-width: 450px) {
+	.descript {
+ 		height: 850px;	
+ 	}
+
 	.descript .wrapper {
 		padding-left: 15px;
 	}
@@ -680,9 +687,6 @@ footer .ref {
 }
 
 @media only screen and (max-width: 375px) {
-	.descript {
- 		height: 850px;	
- 	}
 
 	.descript .wrapper {
 		padding-left: 15px;
@@ -694,7 +698,7 @@ footer .ref {
 
 }
 
-/*CTA Section*/
+/*--------------------CTA Section--------------------*/
 @media only screen and (max-width: 1104px) {
 	.wrapper .contactText {
 		padding-left: 300px;
@@ -735,9 +739,24 @@ footer .ref {
 	}
 }
 
+@media only screen and (max-width: 684px) {
+	.wrapper .contactText {
+		padding-right: 125px;
+	}
+
+	.contact h2 {
+		font-size: 35px;
+	}
+
+	.contact h3 {
+		font-size: 17px; 
+	}
+}
+
+
 @media only screen and (max-width: 674px) {
 	.wrapper .contactText {
-		padding-right: 100px;
+		padding-right: 115px;
 
 	}
 }
@@ -752,55 +771,48 @@ footer .ref {
 @media only screen and (max-width: 1200px) {
 	.contact .contactBtn {
 		right: 8%;
-
 	}
 }
 
 @media only screen and (max-width: 1175px) {
 	.contact .contactBtn {
 		right: 6%;
-
 	}
 
 @media only screen and (max-width: 1145px) {
 	.contact .contactBtn {
 		right: 2%;
-
 	}
 }	
 
 @media only screen and (max-width: 975px) {
 	.contact .contactBtn {
 		right: 10%;
-
 	}
 }
 
 @media only screen and (max-width: 925px) {
 	.contact .contactBtn {
 		right: 8%;
-
 	}
 }
 
 @media only screen and (max-width: 815px) {
 	.contact .contactBtn {
 		right: 6%;
-
 	}
 }
 
 @media only screen and (max-width: 695px) {
 	.contact .contactBtn {
 		right: 4%;
-
 	}
 }
+
 
 @media only screen and (max-width: 664px) {
 	.contact .mailImage {
 		display: none;
-	
 	}
 
 	.wrapper .contactText {
@@ -809,20 +821,10 @@ footer .ref {
 		padding-left: 4%;
 		margin: 0;
 		width: 300px;
-
-
 	}
 	.contact .contactBtn {
 		top: 1440px;
 		right: 15%;
-	}
-
-	.contact h2 {
-		font-size: 35px;
-	}
-
-	.contact h3 {
-		font-size: 17px; 
 	}
 
 }
@@ -830,7 +832,6 @@ footer .ref {
 @media only screen and (max-width: 496px) {
 	.wrapper .contactText {
 		width: 275px;
-
 	}
 
 	.contact .contactBtn {
@@ -845,40 +846,198 @@ footer .ref {
 	}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 	.wrapper .contactText {
-		width: 260px;
-
+		width: 350px;
+		padding-top: 25px;
+		padding-right: 0px;
 	}
 
 	.contact .contactBtn {
-		right: 4%;
+		right: 40%;
 		padding: 10px;
+		top: 1535px;
 	}
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 370px) {
 	.wrapper .contactText {
-		width: 245px;
-
+		width: 275px;
 	}
 
 	.contact .contactBtn {
+		right: 30%;
+	}
+
+}
+
+@media only screen and (max-width: 300px) {
+	.wrapper .contactText {
+		width: 210px;
+	}
+
+	.contact .contactBtn {
+		right: 30%;
+	}
+
+}
+
+
+/*------------Footer Section-----------------*/
+
+@media only screen and (max-width: 1144px) {
+	footer .copy {
+		padding-left: 420px;	
+	}
+
+
+}
+
+@media only screen and (max-width: 1129px) {
+	footer .copy {
+		padding-left: 390px;	
+	}
+
+
+}
+
+@media only screen and (max-width: 1006px) {
+	footer .copy {
+		padding-left: 360px;	
+	}
+
+
+}
+
+@media only screen and (max-width: 965px) {
+	footer .copy {
+		padding-left: 310px;	
+	}
+}
+
+@media only screen and (max-width: 884px) {
+	footer .copy {
+		padding-left: 280px;	
+	}
+}
+
+@media only screen and (max-width: 818px) {
+	footer .copy {
+		padding-left: 260px;	
+	}
+}
+
+@media only screen and (max-width: 777px) {
+	footer .copy {
+		padding-left: 210px;	
+	}
+
+	footer a  img {
+		margin-top: 15px;
+		height: 40px;
+		width: 105px;
+	}
+}
+
+@media only screen and (max-width: 690px) {
+	footer .copy {
+		padding-left: 190px;	
+	}
+}	
+
+@media only screen and (max-width: 664px) {
+	footer .copy {
+		padding-left: 160px;	
+	}
+
+	footer .ref {
 		right: 2%;
-		padding: 10px;
-		top: 1430px;
-	}
-
-	.contact h2 {
-		font-size: 28px;
-	}
-
-	.contact h3 {
-		font-size: 14px; 
+		top: 1630px;
 	}
 }
 
+@media only screen and (max-width: 619px) {
+	footer .copy {
+		width: 240px;
+		padding-top: 25px;
+		padding-left: 120px;
+	}
 
+	footer .ref {
+		right: 2%;
+		top: 1630px;
+	}
+}	
+
+@media only screen and (max-width: 450px) {
+	footer .ref {
+		right: 2%;
+		top: 1670px;
+	}
+}
+
+@media only screen and (max-width: 422px) {
+	footer {
+		height: 170px;
+	}
+
+	footer a  img {
+		display: inline-block;
+		margin-left: 145px;
+		margin-top: 15px;
+		height: 40px;
+		width: 105px;
+	}
+
+	footer .copy {
+		display: inline-block;
+		width: 370px;
+		padding-top: 25px;
+		padding-left: 30px;
+	}
+
+	footer .ref {
+		right: 42%;
+		top: 1775px;
+	}
+}
+
+@media only screen and (max-width: 398px) {
+	footer .copy {
+		width: 360px;
+		padding-left: 40px;
+	}
+}
+
+@media only screen and (max-width: 422px) {
+	footer .copy {
+		width: 260px;
+		padding-left: 50px;
+	}
+
+	footer .ref {
+		right: 32%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	footer a  img {
+		margin-left: 125px;
+	}
+
+
+	footer .copy {
+		width: 200px;
+		padding-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 294px) {
+	footer a  img {
+		margin-left: 110px;
+	}
+
+}
 
 /* End of Media Queries*/
 
